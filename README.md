@@ -11,7 +11,9 @@ MAVEN 3+ Installed
 
 To build:
 
-mvn install -DskipTests
+mvn clean install -DskipTests   - This will skip the test during build. 
+
+mvn clean install               - This will perform test before build 
 
 
 To test:
